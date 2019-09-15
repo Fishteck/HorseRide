@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+  margin: 0 ;
+  padding: 0;
+}
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/wooden-floor-1853417_1920.jpg) ;
+    background-size: cover;
+}
+
+.field {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black; 
+}
+.header {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 20px;
+    color: rgb(255, 218, 51);
+}
+.chess_block {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background:rgba(255, 255, 255, .5);
+}
+.bg_black {
+    background-color:rgba(0, 0, 0, .7);
+}
+.active {
+    background-image: url(./img/iconfinder_Chess_3525372\ \(1\).png);
+    background-color: orange;
+    background-size: contain;
+}
+.green {
+    background: green;
+}
